@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "MyPetStoreApp",
+    "slug": "my-pet-store-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "config": "metro.config.js"
+    },
+    "extra": {
+      "GOOGLE_MAPS_API_KEY": "YOUR_GOOGLE_MAPS_API_KEY" 
+    },
+    "description": "A pet store app built with React Native and Expo.",
+    "iosStatusBar": "dark",
+    "androidStatusBar": {
+      "backgroundColor": "#000000"
+    },
+    "facebookAppId": "123456789", 
+    "facebookDisplayName": "MyPetStoreApp"
+  }
+}
